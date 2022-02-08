@@ -1,0 +1,100 @@
+body{
+    background-image: url(images/background.jfif);
+    background-size: cover;
+    font-family: "Rajdhani", sans-serif;
+}
+.container{
+    min-height: 100vh;
+    height: 100%;
+    max-width: 800px;
+    box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
+    border-top: 10px solid blanchedalmond;
+    border-bottom: 10px solid blanchedalmond;
+}
+.inputArea input{
+    border: 1px solid blanchedalmond;
+    width: 80%;
+    font-size: 14px;
+}
+.addButton{
+    border: none;
+    background-color: blanchedalmond;
+}
+.addButton:hover {
+    background-color: cadetblue;
+}
+.tapArea{
+    border: 1px solid lightgray;
+    margin-top: 1em;
+    position: relative;
+}
+.tapArea button{
+    border: none;
+    background: none;
+    padding: 16px;
+}
+.tapButton{
+    padding: 1em;
+}
+#tapUnderline{
+    height: 4px;
+    background-color: pink;
+    position: absolute;
+    width: 48px;
+    left: 0px;
+    top: 52px;
+}
+.task{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    border-bottom: 1px solid lightgray;
+    position: relative;
+}
+.taskDone{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    border-bottom: 1px solid lightgray;
+    position: relative;
+    background-color: lightgrey;
+    text-decoration: line-through;
+    transition: 0.5s;
+}
+.taskName{
+    padding: 16px;
+}
+.checkButton{
+    background: none;
+    border: none;
+    height: 100%;
+    width: 5em;
+    margin: 0;
+    transition: 0.5s;
+    color: limegreen;
+}
+.deleteButton{
+    background: none;
+    border: none;
+    height: 100%;
+    width: 5em;
+    margin: 0;
+    transition: 0.5s;
+    color:red;
+}
+.checkButton:hover{
+    background-color: greenyellow;
+}
+.deleteButton:hover{
+    background-color: rgb(255, 0, 0, 0.3);
+}
+.fa-undo-alt{
+    color: lightslategray;
+}
+.taskBoard{
+    border: 1px solid lightgray;
+}
+.flexEnd{
+    display: flex;
+    justify-content: flex-end;
+}
