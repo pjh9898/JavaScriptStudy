@@ -1,1 +1,1 @@
-# JavaScriptStudy
+바닐자 JS공부용 폴더
